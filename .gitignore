@@ -5,9 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-.venv
-.gitignore
-requirements.txt
 # Distribution / packaging
 .Python
 build/
@@ -174,3 +171,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+venv
+.gitignore
+requirements.txt

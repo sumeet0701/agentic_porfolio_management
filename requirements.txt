@@ -5,3 +5,4 @@ duckduckgo-search
 newspaper4k 
 lxml_html_clean
 groq
+python-dotenv
