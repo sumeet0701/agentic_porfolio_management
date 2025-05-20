@@ -5,7 +5,9 @@ __pycache__/
 
 # C extensions
 *.so
-
+.venv
+.gitignore
+requirements.txt
 # Distribution / packaging
 .Python
 build/
