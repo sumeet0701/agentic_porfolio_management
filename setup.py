@@ -24,8 +24,8 @@ list_of_files = [
     f"{project_name}/Frontend/templates/",
     f"{project_name}/Backend/api/__init__.py",
     "app.py",
-    ".env"
-    "requirements.txt"
+    ".env",
+    "requirements.txt",
     "readme.md",
 ]
 
