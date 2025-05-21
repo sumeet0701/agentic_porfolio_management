@@ -2,7 +2,7 @@ import logging
 import os
 from datetime import datetime
 
-def setup_logging(log_dir='agentic_pm/logs'):
+def setup_logging(log_dir='logs'):
     """
     Set up logging configuration with a timestamped log file.
 
