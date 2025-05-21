@@ -175,3 +175,12 @@ cython_debug/
 venv
 .gitignore
 requirements.txt
+logs
+*.log
+*.csv
+*.tsv
+*.json
+*.pickle
+*.pkl
+*.h5
+*.hdf5
