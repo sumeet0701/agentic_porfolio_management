@@ -35,7 +35,7 @@ This project introduces a **multi-agent AI-based portfolio management system** u
 
 ## 🧠 Architecture
 
-![alt text](image.png)
+![alt text](agentic_pm\assets\image.png)
 ---
 
 ## 🧠 Agent Responsibilities
