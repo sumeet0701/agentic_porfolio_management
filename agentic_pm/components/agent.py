@@ -2,15 +2,16 @@ from agno.agent import Agent
 from agentic_pm.components.config import *
 from agno.models.groq import Groq
 from agentic_pm.components.prompt import *
+from agentic_pm.components.tools import *
+from agentic_pm.components.instruction import *
 
 
 planning_agent = Agent(
     name="planning_agent",
     description= prompt_for_planing_agents,
     model=groq_client,
+    # tools=[data_collection_tool],
     role="Investment Policy statement generator",
-    instructions=dedent("""
-1. You have to ask the User there Investment requirements and other things which are need to generate the IPS
-""")
+    instructions= policy_agent_instruction,
 )
 

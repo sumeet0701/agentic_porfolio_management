@@ -1,9 +1,17 @@
-from agentic_pm.components.agents.planning_agent import PlanningAgent
-test_goal = "Create a 30-day fitness plan for a beginner."
+from agentic_pm.components.agent import planning_agent
 
-    # Initialize the planning agent
-planner = PlanningAgent()
 
-    # Generate and print the plan
-plan = planner.generate_plan(test_goal)
-print("\nGenerated Plan:\n", plan)
+
+conversation_history = []
+
+while True:
+    input_text = input("User: ")
+    if input_text.lower() == "exit":
+        break
+    conversation_history.append(f"User: {input_text}")
+    response = planning_agent.run(input_text).content
+    actually_response = planning_agent.run(input_text)
+
+    conversation_history.append(f"Agent: {actually_response}")
+    print(f"Agent: {response}")
+
