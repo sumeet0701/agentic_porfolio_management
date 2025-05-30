@@ -13,5 +13,5 @@ while True:
     actually_response = planning_agent.run(input_text)
 
     conversation_history.append(f"Agent: {actually_response}")
+    print(f"===============================================================")
     print(f"Agent: {response}")
-
