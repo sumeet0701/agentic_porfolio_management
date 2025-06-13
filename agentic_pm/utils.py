@@ -4,7 +4,7 @@ from datetime import datetime
 from logging.handlers import RotatingFileHandler
 
 class Logger:
-    def __init__(self, log_name="web_scraper", log_level=logging.INFO):
+    def __init__(self, log_name="agentic_pm", log_level=logging.INFO):
         self.log_name = log_name
         self.log_level = log_level
         self.logger = self._setup_logger()

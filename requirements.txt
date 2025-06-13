@@ -8,3 +8,17 @@ groq
 python-dotenv
 streamlit
 pymongo
+
+## langchain dependencies
+langchain
+langchain-groq
+langchain-community 
+langgraph 
+langchain-anthropic 
+tavily-python 
+langgraph-checkpoint-sqlite
+langchain-core
+langchain-experimental
+langchain-google-community
+langchain-google-genai
+langchain-google-vertexai
